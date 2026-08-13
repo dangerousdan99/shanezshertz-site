@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "wilderness-therapy-group",
+    "name": "Wilderness Therapy Group",
+    "status": "open",
+    "description": "A therapy group that believes nature quietly solves problems modern life creates.",
+    "redirect": "https://go.shanezshertz.shop/wilderness-therapy-group"
+  },
+  {
+    "slug": "daily-coping-co",
+    "name": "Daily Coping Co.",
+    "status": "open",
+    "description": "A premium lifestyle department store retailing beautifully branded emotional support products for everyday life.",
+    "redirect": "https://go.shanezshertz.shop/daily-coping-co"
+  },
+  {
+    "slug": "tiny-victories-club",
+    "name": "Tiny Victories Club",
+    "status": "coming-soon",
+    "description": "A club dedicated to recognising life's smallest accomplishments with Olympic-level seriousness."
+  },
+  {
+    "slug": "department-of-bad-decisions",
+    "name": "Department of Bad Decisions",
+    "status": "coming-soon",
+    "description": "A government department responsible for documenting, approving, and preserving questionable life choices."
+  },
+  {
+    "slug": "corporate-burnout-inc",
+    "name": "Corporate Burnout Inc.",
+    "status": "coming-soon",
+    "description": "A successful corporation dedicated to solving workplace problems by creating slightly different workplace problems."
+  },
+  {
+    "slug": "museum-of-terrible-ideas",
+    "name": "Museum of Terrible Ideas",
+    "status": "coming-soon",
+    "description": "A respected museum preserving humanity's most wonderfully bad ideas with complete institutional dignity."
+  },
+  {
+    "slug": "heartless-artless-gallery",
+    "name": "The Heartless Artless Gallery",
+    "status": "coming-soon",
+    "description": "A gallery devoted to the proposition that art doesn't necessarily require pictures, emotion, or even much effort."
+  }
+]
