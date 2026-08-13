@@ -16,8 +16,9 @@
   {
     "slug": "tiny-victories-club",
     "name": "Tiny Victories Club",
-    "status": "coming-soon",
-    "description": "A club dedicated to recognising life's smallest accomplishments with Olympic-level seriousness."
+    "status": "open",
+    "description": "A club dedicated to recognising life's smallest accomplishments with Olympic-level seriousness.",
+    "redirect": "https://go.shanezshertz.shop/tiny-victories-club"
   },
   {
     "slug": "department-of-bad-decisions",
