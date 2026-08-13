@@ -72,6 +72,13 @@ a {
   background: var(--color-teal-dark);
 }
 
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .blurb {
   max-width: 640px;
   margin: 3rem auto;
