@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-COLLECTIONS = json.loads((ROOT / "collections.json").read_text())
+COLLECTIONS = json.loads((ROOT / "collections.json").read_text(encoding="utf-8"))
 DOCS = ROOT / "docs"
 
 PAGE_TEMPLATE = """<!doctype html>
@@ -102,7 +102,7 @@ def build():
     html = PAGE_TEMPLATE.format(
         open_names=open_names, hero_ctas=hero_ctas, shop_cards=shop_cards
     )
-    (DOCS / "index.html").write_text(html)
+    (DOCS / "index.html").write_text(html, encoding="utf-8")
 
     print(f"Built docs/index.html: {len(COLLECTIONS)} collections ({len(open_collections)} open)")
 
