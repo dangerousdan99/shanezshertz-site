@@ -44,7 +44,8 @@
   {
     "slug": "heartless-artless-gallery",
     "name": "The Heartless Artless Gallery",
-    "status": "coming-soon",
-    "description": "A gallery devoted to the proposition that art doesn't necessarily require pictures, emotion, or even much effort."
+    "status": "open",
+    "description": "A gallery devoted to the proposition that art doesn't necessarily require pictures, emotion, or even much effort.",
+    "redirect": "https://go.shanezshertz.shop/heartless-artless-gallery"
   }
 ]
