@@ -4,48 +4,55 @@
     "name": "Wilderness Therapy Group",
     "status": "open",
     "description": "A therapy group that believes nature quietly solves problems modern life creates.",
-    "redirect": "https://go.shanezshertz.shop/wilderness-therapy-group"
+    "redirect": "https://go.shanezshertz.shop/wilderness-therapy-group",
+    "featured_title": "Nature Is Calling"
   },
   {
     "slug": "daily-coping-co",
     "name": "Daily Coping Co.",
     "status": "open",
     "description": "A premium lifestyle department store retailing beautifully branded emotional support products for everyday life.",
-    "redirect": "https://go.shanezshertz.shop/daily-coping-co"
+    "redirect": "https://go.shanezshertz.shop/daily-coping-co",
+    "featured_title": "Rest Day"
   },
   {
     "slug": "tiny-victories-club",
     "name": "Tiny Victories Club",
     "status": "open",
     "description": "A club dedicated to recognising life's smallest accomplishments with Olympic-level seriousness.",
-    "redirect": "https://go.shanezshertz.shop/tiny-victories-club"
+    "redirect": "https://go.shanezshertz.shop/tiny-victories-club",
+    "featured_title": "Made The Bed"
   },
   {
     "slug": "department-of-bad-decisions",
     "name": "Department of Bad Decisions",
     "status": "open",
     "description": "A government department responsible for documenting, approving, and preserving questionable life choices.",
-    "redirect": "https://go.shanezshertz.shop/department-of-bad-decisions"
+    "redirect": "https://go.shanezshertz.shop/department-of-bad-decisions",
+    "featured_title": "Certificate of Poor Judgment"
   },
   {
     "slug": "corporate-burnout-inc",
     "name": "Corporate Burnout Inc.",
     "status": "open",
     "description": "A successful corporation dedicated to solving workplace problems by creating slightly different workplace problems.",
-    "redirect": "https://go.shanezshertz.shop/corporate-burnout-inc"
+    "redirect": "https://go.shanezshertz.shop/corporate-burnout-inc",
+    "featured_title": "Hustle Harder"
   },
   {
     "slug": "museum-of-terrible-ideas",
     "name": "Museum of Terrible Ideas",
     "status": "open",
     "description": "A respected museum preserving humanity's most wonderfully bad ideas with complete institutional dignity.",
-    "redirect": "https://go.shanezshertz.shop/museum-of-terrible-ideas"
+    "redirect": "https://go.shanezshertz.shop/museum-of-terrible-ideas",
+    "featured_title": "The Chocolate Teapot"
   },
   {
     "slug": "heartless-artless-gallery",
     "name": "The Heartless Artless Gallery",
     "status": "open",
     "description": "A gallery devoted to the proposition that art doesn't necessarily require pictures, emotion, or even much effort.",
-    "redirect": "https://go.shanezshertz.shop/heartless-artless-gallery"
+    "redirect": "https://go.shanezshertz.shop/heartless-artless-gallery",
+    "featured_title": "Smile"
   }
 ]

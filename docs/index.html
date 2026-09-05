@@ -5,87 +5,156 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Shanez Shertz</title>
 <meta name="description" content="A universe of businesses that take ridiculous ideas completely seriously.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="site-header">
-  <img src="assets/logo.png" alt="Shanez Shertz" class="logo">
-</header>
+<nav class="site-header">
+  <a class="brand" href="/">
+    <img src="assets/logo.png" alt="Shanez Shertz" class="logo">
+    <span>Shanez Shertz</span>
+  </a>
+  <div class="navlinks">
+    <a href="#mall">Shops</a>
+    <span class="dot">&middot;&middot;&middot;&middot;&middot;</span>
+    <a href="#about">About</a>
+  </div>
+</nav>
 
-<section class="hero">
-  <div class="hero-content">
-    <h1>THE MALL IS OPEN.</h1>
-    <p class="hero-sub">A universe of businesses that take ridiculous ideas completely seriously. Currently open: Wilderness Therapy Group, Daily Coping Co., Tiny Victories Club, Department of Bad Decisions, Corporate Burnout Inc., Museum of Terrible Ideas, The Heartless Artless Gallery.</p>
-    <div class="hero-ctas">
-      <a class="cta" href="https://go.shanezshertz.shop/wilderness-therapy-group">Shop Wilderness Therapy Group</a>
-      <a class="cta" href="https://go.shanezshertz.shop/daily-coping-co">Shop Daily Coping Co.</a>
-      <a class="cta" href="https://go.shanezshertz.shop/tiny-victories-club">Shop Tiny Victories Club</a>
-      <a class="cta" href="https://go.shanezshertz.shop/department-of-bad-decisions">Shop Department of Bad Decisions</a>
-      <a class="cta" href="https://go.shanezshertz.shop/corporate-burnout-inc">Shop Corporate Burnout Inc.</a>
-      <a class="cta" href="https://go.shanezshertz.shop/museum-of-terrible-ideas">Shop Museum of Terrible Ideas</a>
-      <a class="cta" href="https://go.shanezshertz.shop/heartless-artless-gallery">Shop The Heartless Artless Gallery</a>
+<div class="hero">
+  <div class="street-scroll" id="street-scroll">
+    <div class="street-track">
+      <div class="buildings">
+        <div class="bldg" id="shop-wilderness-therapy-group">
+          <img src="assets/storefronts/wilderness-therapy-group.png" alt="Wilderness Therapy Group storefront">
+          <a class="enter-pill" href="https://go.shanezshertz.shop/wilderness-therapy-group">ENTER &rarr;</a>
+        </div>
+        <div class="bldg" id="shop-daily-coping-co">
+          <img src="assets/storefronts/daily-coping-co.png" alt="Daily Coping Co. storefront">
+          <a class="enter-pill" href="https://go.shanezshertz.shop/daily-coping-co">ENTER &rarr;</a>
+        </div>
+        <div class="bldg" id="shop-tiny-victories-club">
+          <img src="assets/storefronts/tiny-victories-club.png" alt="Tiny Victories Club storefront">
+          <a class="enter-pill" href="https://go.shanezshertz.shop/tiny-victories-club">ENTER &rarr;</a>
+        </div>
+        <div class="bldg" id="shop-department-of-bad-decisions">
+          <img src="assets/storefronts/department-of-bad-decisions.png" alt="Department of Bad Decisions storefront">
+          <a class="enter-pill" href="https://go.shanezshertz.shop/department-of-bad-decisions">ENTER &rarr;</a>
+        </div>
+        <div class="bldg" id="shop-corporate-burnout-inc">
+          <img src="assets/storefronts/corporate-burnout-inc.png" alt="Corporate Burnout Inc. storefront">
+          <a class="enter-pill" href="https://go.shanezshertz.shop/corporate-burnout-inc">ENTER &rarr;</a>
+        </div>
+        <div class="bldg" id="shop-museum-of-terrible-ideas">
+          <img src="assets/storefronts/museum-of-terrible-ideas.png" alt="Museum of Terrible Ideas storefront">
+          <a class="enter-pill" href="https://go.shanezshertz.shop/museum-of-terrible-ideas">ENTER &rarr;</a>
+        </div>
+        <div class="bldg" id="shop-heartless-artless-gallery">
+          <img src="assets/storefronts/heartless-artless-gallery.png" alt="The Heartless Artless Gallery storefront">
+          <a class="enter-pill" href="https://go.shanezshertz.shop/heartless-artless-gallery">ENTER &rarr;</a>
+        </div>
+      </div>
+      <div class="curb"></div>
+      <div class="sidewalk"></div>
+    </div>
+  </div>
+  <div class="edge-fade left"></div>
+  <div class="edge-fade right"></div>
+  <div class="arrow-hint left"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#211F1B" stroke-width="2.4"><polyline points="15 18 9 12 15 6"/></svg></div>
+  <div class="arrow-hint right"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#211F1B" stroke-width="2.4"><polyline points="9 18 15 12 9 6"/></svg></div>
+</div>
+
+<div class="dots">
+  <a href="#shop-wilderness-therapy-group" aria-label="Wilderness Therapy Group"></a>
+  <a href="#shop-daily-coping-co" aria-label="Daily Coping Co."></a>
+  <a href="#shop-tiny-victories-club" aria-label="Tiny Victories Club"></a>
+  <a href="#shop-department-of-bad-decisions" aria-label="Department of Bad Decisions"></a>
+  <a href="#shop-corporate-burnout-inc" aria-label="Corporate Burnout Inc."></a>
+  <a href="#shop-museum-of-terrible-ideas" aria-label="Museum of Terrible Ideas"></a>
+  <a href="#shop-heartless-artless-gallery" aria-label="The Heartless Artless Gallery"></a>
+</div>
+
+<div class="marquee">
+  <div class="marquee-track">OPEN 24/7 &middot; NO PARKING NEEDED &middot; 7 SHOPS AND COUNTING &middot; OPEN 24/7 &middot; NO PARKING NEEDED &middot; 7 SHOPS AND COUNTING &middot;</div>
+</div>
+
+<section class="featured" id="mall">
+  <div class="featured-head">
+    <span class="eyebrow">One from every shop</span>
+    <h2>A Taste of Every Shop</h2>
+  </div>
+  <div class="featured-grid">
+    <div class="featured-card">
+      <img src="assets/products/wilderness-therapy-group.jpg" alt="Nature Is Calling">
+      <span class="tag">Wilderness Therapy Group</span>
+      <div class="title">Nature Is Calling</div>
+      <a href="https://go.shanezshertz.shop/wilderness-therapy-group">Shop &rarr;</a>
+    </div>
+    <div class="featured-card">
+      <img src="assets/products/daily-coping-co.jpg" alt="Rest Day">
+      <span class="tag">Daily Coping Co.</span>
+      <div class="title">Rest Day</div>
+      <a href="https://go.shanezshertz.shop/daily-coping-co">Shop &rarr;</a>
+    </div>
+    <div class="featured-card">
+      <img src="assets/products/tiny-victories-club.jpg" alt="Made The Bed">
+      <span class="tag">Tiny Victories Club</span>
+      <div class="title">Made The Bed</div>
+      <a href="https://go.shanezshertz.shop/tiny-victories-club">Shop &rarr;</a>
+    </div>
+    <div class="featured-card">
+      <img src="assets/products/department-of-bad-decisions.jpg" alt="Certificate of Poor Judgment">
+      <span class="tag">Department of Bad Decisions</span>
+      <div class="title">Certificate of Poor Judgment</div>
+      <a href="https://go.shanezshertz.shop/department-of-bad-decisions">Shop &rarr;</a>
+    </div>
+    <div class="featured-card">
+      <img src="assets/products/corporate-burnout-inc.jpg" alt="Hustle Harder">
+      <span class="tag">Corporate Burnout Inc.</span>
+      <div class="title">Hustle Harder</div>
+      <a href="https://go.shanezshertz.shop/corporate-burnout-inc">Shop &rarr;</a>
+    </div>
+    <div class="featured-card">
+      <img src="assets/products/museum-of-terrible-ideas.jpg" alt="The Chocolate Teapot">
+      <span class="tag">Museum of Terrible Ideas</span>
+      <div class="title">The Chocolate Teapot</div>
+      <a href="https://go.shanezshertz.shop/museum-of-terrible-ideas">Shop &rarr;</a>
+    </div>
+    <div class="featured-card">
+      <img src="assets/products/heartless-artless-gallery.jpg" alt="Smile">
+      <span class="tag">The Heartless Artless Gallery</span>
+      <div class="title">Smile</div>
+      <a href="https://go.shanezshertz.shop/heartless-artless-gallery">Shop &rarr;</a>
     </div>
   </div>
 </section>
 
-<section class="blurb">
+<section class="blurb" id="about">
   <p>Shanez Shertz isn't one t-shirt brand. It's a mall full of them &mdash; a rejection-letter department, a wellness company that's questionable at best, a gallery that won't explain itself, and more opening soon. Nobody working here finds any of it remarkable.</p>
 </section>
 
-<section class="shops">
-  <div class="shop-card shop-live">
-    <h2>Wilderness Therapy Group</h2>
-    <p class="shop-status">Open</p>
-    <p>A therapy group that believes nature quietly solves problems modern life creates.</p>
-    <a href="https://go.shanezshertz.shop/wilderness-therapy-group">Visit the shop &rarr;</a>
-  </div>
-  <div class="shop-card shop-live">
-    <h2>Daily Coping Co.</h2>
-    <p class="shop-status">Open</p>
-    <p>A premium lifestyle department store retailing beautifully branded emotional support products for everyday life.</p>
-    <a href="https://go.shanezshertz.shop/daily-coping-co">Visit the shop &rarr;</a>
-  </div>
-  <div class="shop-card shop-live">
-    <h2>Tiny Victories Club</h2>
-    <p class="shop-status">Open</p>
-    <p>A club dedicated to recognising life's smallest accomplishments with Olympic-level seriousness.</p>
-    <a href="https://go.shanezshertz.shop/tiny-victories-club">Visit the shop &rarr;</a>
-  </div>
-  <div class="shop-card shop-live">
-    <h2>Department of Bad Decisions</h2>
-    <p class="shop-status">Open</p>
-    <p>A government department responsible for documenting, approving, and preserving questionable life choices.</p>
-    <a href="https://go.shanezshertz.shop/department-of-bad-decisions">Visit the shop &rarr;</a>
-  </div>
-  <div class="shop-card shop-live">
-    <h2>Corporate Burnout Inc.</h2>
-    <p class="shop-status">Open</p>
-    <p>A successful corporation dedicated to solving workplace problems by creating slightly different workplace problems.</p>
-    <a href="https://go.shanezshertz.shop/corporate-burnout-inc">Visit the shop &rarr;</a>
-  </div>
-  <div class="shop-card shop-live">
-    <h2>Museum of Terrible Ideas</h2>
-    <p class="shop-status">Open</p>
-    <p>A respected museum preserving humanity's most wonderfully bad ideas with complete institutional dignity.</p>
-    <a href="https://go.shanezshertz.shop/museum-of-terrible-ideas">Visit the shop &rarr;</a>
-  </div>
-  <div class="shop-card shop-live">
-    <h2>The Heartless Artless Gallery</h2>
-    <p class="shop-status">Open</p>
-    <p>A gallery devoted to the proposition that art doesn't necessarily require pictures, emotion, or even much effort.</p>
-    <a href="https://go.shanezshertz.shop/heartless-artless-gallery">Visit the shop &rarr;</a>
-  </div>
-</section>
-
 <footer class="site-footer">
+  <div class="brand"><img src="assets/logo.png" alt="" class="logo-small"><span>&copy; 2026 Shanez Shertz</span></div>
   <div class="social-links">
     <a href="https://www.facebook.com/shanezshertz" aria-label="Facebook">Facebook</a>
     <a href="https://www.instagram.com/shanezshertz/" aria-label="Instagram">Instagram</a>
-    <a href="https://tiktok.com/@shanezshertz" aria-label="TikTok">TikTok</a>
+    <a href="https://www.tiktok.com/@shanezshertz" aria-label="TikTok">TikTok</a>
   </div>
-  <p class="rights">&copy; 2026 Shanez Shertz. All rights reserved.</p>
 </footer>
+
+<script>
+  var street = document.getElementById("street-scroll");
+  street.addEventListener("wheel", function (e) {
+    if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+    var atStart = street.scrollLeft <= 0;
+    var atEnd = street.scrollLeft >= street.scrollWidth - street.clientWidth - 1;
+    if ((e.deltaY < 0 && atStart) || (e.deltaY > 0 && atEnd)) return;
+    street.scrollBy({ left: e.deltaY, behavior: "instant" });
+    e.preventDefault();
+  }, { passive: false });
+</script>
 
 </body>
 </html>
